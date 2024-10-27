@@ -19,6 +19,7 @@ Brief description and runtime of the codes (based on running on an A100):
 
 -----
 Folder structure: 
+
 /Report/ contains my project report. 
 
 /Models/ are where some of the models are saved. Note that you need to download the RF classifier and SVM classifier from Google Drive as Github has a 100mb file limit. 
