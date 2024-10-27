@@ -1,5 +1,5 @@
 # MXN442-Assignment
-Compares EfficientNetV2 with other CNNs and non-DL methods (taught in MXN442) on EMNIST-Letters dataset. 
+Compares EfficientNetV2-S with EfficientNet-B4 and non-DL methods (taught in MXN442) on EMNIST-Letters dataset. 
 
 EfficientNetV2 paper is referenced/can be found here:
 Tan, Mingxing, and Quoc V. Le. "EfficientNetV2: Smaller Models and Faster Training." 2021. arXiv preprint arXiv:2104.00298. 
