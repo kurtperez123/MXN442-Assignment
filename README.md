@@ -17,6 +17,8 @@ Brief description and runtime of the codes (based on running on an A100):
 
 **Evaluate:** Can be used to evaluate the saved models on the training set. Runtime: 20 minutes. 
 
+The files do not need to be ran in any particular order. They all have a different purpose.
+
 -----
 Folder structure: 
 
@@ -46,11 +48,10 @@ Requirements:
     I have saved my models in the above link. You can download them and save it into the "/Models" folder. The Eval code rely on models being available in that folder. 
 
 All codes in this repo have been ran using the Google Colab environment and so all the codes are jupyter notebooks (.ipynb). 
-I have used an A100 in the Google Colab to train the CNNs. I would strongly recommend having access to a CUDA GPU. 
+I have used an A100 in the Google Colab environment to train the CNNs. I would strongly recommend having access to a CUDA GPU. 
+
+
 -----
-
-
-The files do not need to be ran in any particular order. They all have a different purpose.
 
 ----------------------------
 
