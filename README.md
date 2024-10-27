@@ -32,13 +32,14 @@ Requirements:
 
 1. The datasets needs to be downloaded once into the "./data" folder. The codes should already do this. 
 
-    e.g. You should see blocks like below at the start of every .ipynb file: 
+    e.g. You should see blocks like below at the start of every .ipynb file:
+    
     dataset_train = datasets.EMNIST(root='./data', split='letters', train=True, download=True, transform=transforms.ToTensor())
     dataset_test = datasets.EMNIST(root='./data', split='letters', train=False, download=True, transform=transforms.ToTensor())
 
-    I have not extracted the datasets as uploading it on Github is difficult. 
+    I have not extracted the datasets as uploading it on Github is difficult but if you run any of these blocks, it should download the datasets (if not present already). 
 
-2. The SVM and RandomForest models also need to be downloaded and saved into the "/Models" folder. They are above the 100mb limit that GitHub has. 
+3. The SVM and RandomForest models also need to be downloaded and saved into the "/Models" folder. They are above the 100mb limit that GitHub has. 
 
     https://drive.google.com/drive/folders/1AtxXnANCRgR6-5x4hOjaYNMOkqrlLanR?usp=sharing
 
