@@ -15,7 +15,7 @@ Brief description and runtime of the codes (based on running on an A100):
 
 **TrainTest_EfficientNet_models:** Trains an EfficientNetV2-S and EfficientNet-B4 network for 10 epochs. Runtime: 2 hours (requires a CUDA GPU)
 
-**Evaluate:** Can be used to evaluate the saved models on the training set. Runtime: 20 minutes. 
+**Evaluate:** Can be used to evaluate the saved models on the training set. Runtime: 20 minutes. (Deep learning models and Random Forest runs quickly but the SVM model can take 45 minutes to evaluate). 
 
 The files do not need to be ran in any particular order. They all have a different purpose.
 
