@@ -37,6 +37,7 @@ Requirements:
     e.g. You should see blocks like below at the start of every .ipynb file:
     
     dataset_train = datasets.EMNIST(root='./data', split='letters', train=True, download=True, transform=transforms.ToTensor())
+   
     dataset_test = datasets.EMNIST(root='./data', split='letters', train=False, download=True, transform=transforms.ToTensor())
 
     I have not extracted the datasets as uploading it on Github is difficult but if you run any of these blocks, it should download the datasets (if not present already). 
