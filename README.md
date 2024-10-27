@@ -1,14 +1,20 @@
 # MXN442-Assignment
 Compares EfficientNetV2 with other CNNs and non-DL methods (taught in MXN442) on EMNIST-Letters dataset. 
 
-////////////////
 EfficientNetV2 paper is referenced/can be found here:
 Tan, Mingxing, and Quoc V. Le. "EfficientNetV2: Smaller Models and Faster Training." 2021. arXiv preprint arXiv:2104.00298. 
 Available at :https://arxiv.org/abs/2104.00298
 
+
+-----
+Folder structure: 
+/Report/ contains my project report. 
+/Models/ are where some of the models are saved. Note that you need to download the RF classifier and SVM classifier from Google Drive as Github has a 100mb file limit. 
+/data/ is where the datasets used get saved. 
+
+-----
 You can find my assignment report within "./Report/". 
 
-////////////////
 Requirements: 
 
 1. The datasets needs to be downloaded once into the "./data" folder. The codes should already do this. 
@@ -28,7 +34,6 @@ Requirements:
 All codes in this repo have been ran using the Google Colab environment and so all the codes are jupyter notebooks (.ipynb). 
 I have used an A100 in the Google Colab to train the CNNs. I would strongly recommend having access to a CUDA GPU. 
 
-////////////////
 
 Brief description and runtime of the codes (based on running on an A100):
 
@@ -40,8 +45,5 @@ Evaluate: Can be used to evaluate the saved models on the training set. Runtime:
 
 The files do not need to be ran in any particular order. They all have a different purpose.
 
-////////////////
-Models created are available in:  "./Models/" 
-You can use the "./Evaluate.ipynb" if you just want to run the test set on them. 
+----------------------------
 
-////////////////
