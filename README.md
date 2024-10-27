@@ -11,7 +11,7 @@ Brief description and runtime of the codes (based on running on an A100):
 
 **Exploration.ipynb:** Provides an EDA and visualises the datasets and models. Runtime: a few minutes
 
-**Non_DL_Techniques:** Converts the tensor datasets into arrays and trains/tests an SVM and a Random Forest Classifier: Runtime: 1 hour (can be ran without using a GPU)
+**Non_DL_Techniques:** Converts the tensor datasets into numpy arrays and trains/tests an SVM and a Random Forest Classifier: Runtime: 1 hour (can be ran without using a GPU)
 
 **TrainTest_EfficientNet_models:** Trains an EfficientNetV2-S and EfficientNet-B4 network for 10 epochs. Runtime: 2 hours (requires a CUDA GPU)
 
